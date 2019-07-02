@@ -19,6 +19,11 @@ body {
 	padding: 1rem;
 }
 
+/*--- Keeps Fixed Navbar from jumping around --*/
+.fixed-top  {
+ -webkit-backface-visibility: hidden;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar {
@@ -51,7 +56,36 @@ body {
 /*============= LANDING PAGE =============*/
 
 .home-inner {
-	background-image: url('img/landing.png');
+  background-image: url('img/landing.jpg');
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 }
 .caption {
 	width: 100%;
@@ -73,6 +107,7 @@ body {
 	font-size: .9rem;
 	text-transform: uppercase;
 }
+
 
 /*============= ABOUT SECTION =============*/
 
@@ -132,6 +167,11 @@ img.example-image {
 }
 .portfolio-item {
 	overflow: hidden;
+}
+
+/*--- iOS Portfolio Row Fix --*/
+#portfolio .row {
+    margin: 0!important;
 }
 
 /*============= TESTIMONIALS SECTION =============*/
@@ -238,3 +278,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+
+
+
+
