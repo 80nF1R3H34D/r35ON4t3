@@ -30,6 +30,8 @@ body {
 	padding: 1rem;
 }
 
+
+
 /*============= NAVIGATION =============*/
 
 .navbar {
@@ -40,7 +42,7 @@ body {
 	background-color: rgba(57, 63, 70, .9)!important;
 }
 .navbar-brand img {
-	height: 8rem;
+	height: 2.5rem;
 }
 
 .navbar-nav .nav-link {
@@ -49,7 +51,7 @@ body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-	color: #00B3FF;
+	color: black;
 }
 .svg-inline--fa.fa-w-14 {
 	color: white;
@@ -117,7 +119,8 @@ body {
 	z-index: 1;
 }
 .caption h3 {
-	font-family: 'kewlscriptw00-regularregular', Arial, sans-serif!important;
+	text-shadow: 2px 2px #53595f;   
+	font-family: 'kewlscriptw00-regularregular', Lato, sans-serif!important;
 	color: white;
 	font-size: 5.4rem;
 	padding-bottom: 2rem;
@@ -135,7 +138,7 @@ body {
 .jumbotron {
 	margin-bottom: 0;
 	border-radius: 0;
-	padding: 3rem 0 3rem;
+	padding: 1rem 0 3rem;
 }
 .narrow {
 	width: 85%;
@@ -219,7 +222,7 @@ img.example-image {
 	color: white;
 }
 .footer img {
-	height: 2rem;
+	height: 8rem;
 	margin: 1.5rem 0;
 }
 .footer a {
