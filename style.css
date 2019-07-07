@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+@font-face {
+    font-family: 'kewlscriptw00-regularregular';
+    src: url('css/Fonts/webfontkit/kewl_script_w00_regular-webfont.woff2') format('woff2'),
+         url('css/Fonts/webfontkit/kewl_script_w00_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 body {
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
@@ -22,7 +33,6 @@ body {
 /*============= NAVIGATION =============*/
 
 .navbar {
-	padding: .6rem 1rem;
 	text-transform: uppercase;
 	font-size: .9rem;
 	font-weight: 700;
@@ -30,8 +40,9 @@ body {
 	background-color: rgba(57, 63, 70, .9)!important;
 }
 .navbar-brand img {
-	height: 2rem;
+	height: 8rem;
 }
+
 .navbar-nav .nav-link {
 	color: white;
 	padding-top: .8rem;
@@ -83,11 +94,6 @@ body {
   color: white;
 }
 
-.google {
-  background: #dd4b39;
-  color: white;
-}
-
 .linkedin {
   background: #007bb5;
   color: white;
@@ -111,9 +117,9 @@ body {
 	z-index: 1;
 }
 .caption h3 {
+	font-family: 'kewlscriptw00-regularregular', Arial, sans-serif!important;
 	color: white;
-	font-size: 3.4rem;
-	text-transform: uppercase;
+	font-size: 5.4rem;
 	padding-bottom: 2rem;
 }
 .btn {
