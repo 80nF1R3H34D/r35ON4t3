@@ -51,7 +51,7 @@ body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-	color: black;
+	color: #00B3FF;
 }
 .svg-inline--fa.fa-w-14 {
 	color: white;
