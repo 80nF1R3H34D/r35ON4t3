@@ -218,7 +218,7 @@ img.example-image {
 
 .footer .row {
 	background-color: rgba(57, 63, 70, .85);
-	padding: 1rem 2rem 3rem;
+	padding: 1rem 5rem 3rem;
 	color: white;
 }
 .footer img {
@@ -278,6 +278,16 @@ hr.socket {
 		padding-bottom: 1.2rem;
 	}
 }
+
+@media screen and (max-width: 768px) {
+  .icon-bar {
+    visibility: hidden;
+    display: none;
+    /* your any other css styles */
+  }
+}
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
