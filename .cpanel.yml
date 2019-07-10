@@ -2,4 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/resonat2/public_html
-- /bin/cp -r * $DEPLOYPATH
+	- /bin/cp -r * $DEPLOYPATH
