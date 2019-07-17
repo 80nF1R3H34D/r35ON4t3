@@ -8,8 +8,8 @@ body {
 
 /*--- Nav Scrolling Offset --*/
 .offset:before {
-	height: 62px;
-	margin-top: -62px;
+	height: 320px;
+	margin-top: -10px;
 	content: "";
 	display: block;
 }
